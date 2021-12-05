@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class usAlma {
+    public static void main(String[] args) {
+        int n,r,i,total=1;
+        Scanner scan= new Scanner(System.in);
+        System.out.print("Üssü Alınacak Sayıyı giriniz:");
+        n = scan.nextInt();
+        System.out.print("Üs Olacak Sayıyı giriniz:");
+        r = scan.nextInt();
+         for ( i=1; i<=r;i++){
+            total*=n;
+        }
+        System.out.print("SONUÇ="+total);
+    }
+}
